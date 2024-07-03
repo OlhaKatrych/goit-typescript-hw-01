@@ -6,5 +6,8 @@ export const callback = (a: number) => {
   return 100 + a;
 };
 
-
+console.log(age);
+console.log(username);
+console.log(toggle);
+console.log(empty);
 export {};

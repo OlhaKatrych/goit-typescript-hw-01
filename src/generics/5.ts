@@ -10,3 +10,5 @@ const RoleDescription: Role = {
   editor: "Editor User",
   guest: "Guest User",
 };
+
+console.log(RoleDescription.admin);
