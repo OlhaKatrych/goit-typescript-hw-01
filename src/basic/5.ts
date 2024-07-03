@@ -8,10 +8,7 @@ export enum DayOfWeek {
   Sunday,
 }
 
-export const isWeekend = (day: DayOfWeek): string => {
-  if (day === DayOfWeek.Saturday || day === DayOfWeek.Sunday) {
-    return "Weekend";
-  } else {
-    return "Weekday";
-  }
+export const isWeekend = (day: DayOfWeek): boolean => {
+  return day === DayOfWeek.Saturday || day === DayOfWeek.Sunday
+    
 };
